@@ -1,0 +1,86 @@
+{
+  "settings": {
+    "pdf_path": "Data/DSA_Lecture.pdf",
+    "output_file": "run_k1.json",
+    "k": 1,
+    "chunk_size": 500,
+    "overlap": 50
+  },
+  "counts": {
+    "answered": 1,
+    "refused": 9,
+    "error": 0
+  },
+  "results": [
+    {
+      "question": "What is the time complexity to insert into a Max Heap?",
+      "expected": "O(log n)",
+      "top_score": 0.494498074054718,
+      "generated_answer": "Based on the provided context, the time complexity to insert into the heap is $O(\\log n)$ (noted in the text as \"Time Complexity = $O(\\log n)$\" near the bottom of the context).",
+      "status": "answered"
+    },
+    {
+      "question": "Which node is always deleted first in Heap Sort?",
+      "expected": "The root",
+      "top_score": 0.41650253534317017,
+      "generated_answer": "Based on the provided context, there is not enough information to determine which node is always deleted first in Heap Sort.",
+      "status": "refused"
+    },
+    {
+      "question": "What is the order of traversal in Preorder traversal?",
+      "expected": "Root - Left - Right",
+      "top_score": 0.2218090146780014,
+      "generated_answer": "Based on the provided context, there is not enough information to answer what the order of traversal is in Preorder traversal.",
+      "status": "refused"
+    },
+    {
+      "question": "What are the allowed balance factor values in an AVL tree?",
+      "expected": "{-1, 0, 1}",
+      "top_score": 0.4458918571472168,
+      "generated_answer": "Based on the provided context, the allowed balance factor values in an AVL tree are not mentioned (the text only mentions \"Balonced Buincony tneec\" and \"Bolance focton = height of deft Subtnee \u2014 height o night Sub tree\", along with some symbols/numbers like \"-1, 0, 1\" visually implied near rotation notes, but the context does not explicitly state the allowed values). \n\nTherefore, the context does not contain enough information to answer the question clearly.",
+      "status": "refused"
+    },
+    {
+      "question": "What is the formula for the balance factor of a node?",
+      "expected": "Height of left subtree minus height of right subtree",
+      "top_score": 0.2719031572341919,
+      "generated_answer": "Based on the provided context, there is no mention of a \"balance factor of a node\" or any formula for it. Therefore, the context does not contain enough information to answer the question.",
+      "status": "refused"
+    },
+    {
+      "question": "What is the formula for load factor?",
+      "expected": "n / m (number of elements divided by number of slots)",
+      "top_score": 0.33668506145477295,
+      "generated_answer": "Based on the provided context, there is no mention of the formula for load factor.",
+      "status": "refused"
+    },
+    {
+      "question": "What is the recommended load factor limit for open addressing?",
+      "expected": "<= 0.7",
+      "top_score": 0.16725553572177887,
+      "generated_answer": "Based on the provided context, there is no information about the recommended load factor limit for open addressing.",
+      "status": "refused"
+    },
+    {
+      "question": "What is the average case time complexity of Merge Sort?",
+      "expected": "O(n log n)",
+      "top_score": 0.3291534185409546,
+      "generated_answer": "The context does not contain enough information to answer the question.",
+      "status": "refused"
+    },
+    {
+      "question": "What is the space complexity of Quick Sort?",
+      "expected": "O(log n)",
+      "top_score": 0.37316828966140747,
+      "generated_answer": "The context does not contain enough information to answer the question.",
+      "status": "refused"
+    },
+    {
+      "question": "According to the notes, what is the number of null links in a binary tree with n nodes?",
+      "expected": "n + 1",
+      "top_score": 0.29660388827323914,
+      "generated_answer": "Based on the provided context, there is no mention of the number of null links in a binary tree with n nodes. Therefore, the context doesn't contain enough information to answer the question.",
+      "status": "refused"
+    }
+  ]
+}

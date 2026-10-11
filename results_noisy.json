@@ -1,0 +1,72 @@
+[
+  {
+    "question": "What is the time complexity to insert into a Max Heap?",
+    "expected": "O(log n)",
+    "retrieval_score": 0.494498074054718,
+    "generated_answer": "Based on the provided context, the time complexity to insert is $O(\\log n)$ (noted in the text as \"Time Complexity = O (09 1)\").",
+    "refused": false
+  },
+  {
+    "question": "Which node is always deleted first in Heap Sort?",
+    "expected": "The root",
+    "retrieval_score": 0.41650253534317017,
+    "generated_answer": "Based on the provided context, there is not enough information to answer which node is always deleted first in Heap Sort.",
+    "refused": true
+  },
+  {
+    "question": "What is the order of traversal in Preorder traversal?",
+    "expected": "Root - Left - Right",
+    "retrieval_score": 0.2218090146780014,
+    "generated_answer": "Based on the provided context, there is not enough information to answer the question about the order of traversal in Preorder traversal.",
+    "refused": true
+  },
+  {
+    "question": "What are the allowed balance factor values in an AVL tree?",
+    "expected": "{-1, 0, 1}",
+    "retrieval_score": 0.4458918571472168,
+    "generated_answer": "Based on the provided context, the allowed balance factor values in an AVL tree are not mentioned. Therefore, the context does not contain enough information to answer the question.",
+    "refused": true
+  },
+  {
+    "question": "What is the formula for the balance factor of a node?",
+    "expected": "Height of left subtree minus height of right subtree",
+    "retrieval_score": 0.2719031572341919,
+    "generated_answer": "Based on the provided context, there is no mention of the formula for the balance factor of a node.",
+    "refused": false
+  },
+  {
+    "question": "What is the formula for load factor?",
+    "expected": "n / m (number of elements divided by number of slots)",
+    "retrieval_score": 0.33668506145477295,
+    "generated_answer": "Based on the provided context, there is no mention of the formula for load factor.",
+    "refused": false
+  },
+  {
+    "question": "What is the recommended load factor limit for open addressing?",
+    "expected": "<= 0.7",
+    "retrieval_score": 0.16725553572177887,
+    "generated_answer": "Based on the provided context, there is not enough information to answer the question about the recommended load factor limit for open addressing.",
+    "refused": true
+  },
+  {
+    "question": "What is the average case time complexity of Merge Sort?",
+    "expected": "O(n log n)",
+    "retrieval_score": 0.3291534185409546,
+    "generated_answer": "The context doesn't contain enough information to answer.",
+    "refused": false
+  },
+  {
+    "question": "What is the space complexity of Quick Sort?",
+    "expected": "O(log n)",
+    "retrieval_score": 0.37316828966140747,
+    "generated_answer": "Based on the provided context, there is not enough information to answer the question about the space complexity of Quick Sort.",
+    "refused": true
+  },
+  {
+    "question": "According to the notes, what is the number of null links in a binary tree with n nodes?",
+    "expected": "n + 1",
+    "retrieval_score": 0.29660388827323914,
+    "generated_answer": "Based on the provided context, there is not enough information to answer the question about the number of null links in a binary tree with n nodes.",
+    "refused": true
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {"question": "What is the time complexity to insert into a Max Heap?", "answer": "O(log n)"},
+  {"question": "Which node is always deleted first in Heap Sort?", "answer": "The root"},
+  {"question": "What is the order of traversal in Preorder traversal?", "answer": "Root - Left - Right"},
+  {"question": "What are the allowed balance factor values in an AVL tree?", "answer": "{-1, 0, 1}"},
+  {"question": "What is the formula for the balance factor of a node?", "answer": "Height of left subtree minus height of right subtree"},
+  {"question": "What is the formula for load factor?", "answer": "n / m (number of elements divided by number of slots)"},
+  {"question": "What is the recommended load factor limit for open addressing?", "answer": "<= 0.7"},
+  {"question": "What is the average case time complexity of Merge Sort?", "answer": "O(n log n)"},
+  {"question": "What is the space complexity of Quick Sort?", "answer": "O(log n)"},
+  {"question": "According to the notes, what is the number of null links in a binary tree with n nodes?", "answer": "n + 1"}
+]

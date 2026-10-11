@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+Data/*.pdf
+Data/*.ocr.txt
+answer_cache.json

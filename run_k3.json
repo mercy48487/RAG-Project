@@ -1,0 +1,86 @@
+{
+  "settings": {
+    "pdf_path": "Data/DSA_Lecture.pdf",
+    "output_file": "run_k3.json",
+    "k": 3,
+    "chunk_size": 500,
+    "overlap": 50
+  },
+  "counts": {
+    "answered": 6,
+    "refused": 4,
+    "error": 0
+  },
+  "results": [
+    {
+      "question": "What is the time complexity to insert into a Max Heap?",
+      "expected": "O(log n)",
+      "top_score": 0.494498074054718,
+      "generated_answer": "Based on the provided context, the time complexity to insert into a heap is $O(\\log n)$ (referenced as \"Time to insert = O(log n)\" under the Heap section).",
+      "status": "answered"
+    },
+    {
+      "question": "Which node is always deleted first in Heap Sort?",
+      "expected": "The root",
+      "top_score": 0.41650253534317017,
+      "generated_answer": "Based on the provided context, there is not enough information to determine which node is *always* deleted first in Heap Sort. The context mentions \"Max Heap - Root\" and \"Min Heap - Root\", but it does not explicitly state which one is deleted first in Heap Sort.",
+      "status": "refused"
+    },
+    {
+      "question": "What is the order of traversal in Preorder traversal?",
+      "expected": "Root - Left - Right",
+      "top_score": 0.2218090146780014,
+      "generated_answer": "Based on the provided context, the order of traversal in Preorder traversal is:\n\nRoot - Left - Right",
+      "status": "answered"
+    },
+    {
+      "question": "What are the allowed balance factor values in an AVL tree?",
+      "expected": "{-1, 0, 1}",
+      "top_score": 0.4458918571472168,
+      "generated_answer": "Based on the provided context, the allowed balance factor values in an AVL tree are indicated as:\n\n* $\\le 1$ ($|f| \\le 1$) \n* Specifically, the context notes: \"Imbalance factor due to AVL = $|-1|$\" (or values of $-1, 0, 1$).",
+      "status": "answered"
+    },
+    {
+      "question": "What is the formula for the balance factor of a node?",
+      "expected": "Height of left subtree minus height of right subtree",
+      "top_score": 0.2719031572341919,
+      "generated_answer": "Based on the provided context, the formula for the balance factor of a node is:\n\nBalance factor = height of left sub tree \u2014 height of right sub tree",
+      "status": "answered"
+    },
+    {
+      "question": "What is the formula for load factor?",
+      "expected": "n / m (number of elements divided by number of slots)",
+      "top_score": 0.33668506145477295,
+      "generated_answer": "Based on the provided context, there is not enough information to answer the question about the formula for load factor.",
+      "status": "refused"
+    },
+    {
+      "question": "What is the recommended load factor limit for open addressing?",
+      "expected": "<= 0.7",
+      "top_score": 0.16725553572177887,
+      "generated_answer": "Based on the provided context, there is not enough information to answer what the recommended load factor limit is for open addressing. (The context mentions \"Load facto. (= se\", but does not specify a recommended limit for open addressing).",
+      "status": "refused"
+    },
+    {
+      "question": "What is the average case time complexity of Merge Sort?",
+      "expected": "O(n log n)",
+      "top_score": 0.3291534185409546,
+      "generated_answer": "Based on the provided context, the information is not sufficient to answer what the average case time complexity of Merge Sort is (the context does not mention Merge Sort).",
+      "status": "answered"
+    },
+    {
+      "question": "What is the space complexity of Quick Sort?",
+      "expected": "O(log n)",
+      "top_score": 0.37316828966140747,
+      "generated_answer": "Based on the provided context, there is no mention of the space complexity of Quick Sort. The context only mentions its time complexity ($O(n \\log n)$). Therefore, there is not enough information to answer the question.",
+      "status": "refused"
+    },
+    {
+      "question": "According to the notes, what is the number of null links in a binary tree with n nodes?",
+      "expected": "n + 1",
+      "top_score": 0.29660388827323914,
+      "generated_answer": "According to the context, the number of null links in a binary tree with $n$ nodes is:\n\n$2n - 1$ (derived from the proof: `# of null links = $(2n - 1) + 2 - 1 = 2n + 1 - 1 = 2n$`, or as stated in the induction step: `(2n + 1 - 1)` / `(2n - 1)`). \n\n*(Note: The text shows the expression `(2n - 1) + 2` simplifying to `(n+1) + ...` during a proof step, but the final evaluated expression for the number of null links in the proof is $2n$ or $2n-1$ depending on the specific line. To be strictly accurate to the text's proof steps: `# of null links = (2n - 1) + 2`)*",
+      "status": "answered"
+    }
+  ]
+}
